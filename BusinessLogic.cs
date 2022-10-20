@@ -149,6 +149,11 @@ namespace Lab2Solution
 
             return EntryEditError.NoError;
         }
+
+        public void InvalidFieldErrorAddEntry(Entry entry)
+        {
+            throw new NotImplementedException();
+        }
     }
 
 
